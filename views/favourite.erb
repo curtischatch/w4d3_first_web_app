@@ -1,0 +1,8 @@
+<h1>My Favourites</h1>
+<h2>Here are some links to my favourite sites</h2>
+
+<ul>
+  <% @fav_links.each do |link| %>
+    <li><a href='<%=link%>'><%=link%></a></li>
+  <% end %>
+</ul>
